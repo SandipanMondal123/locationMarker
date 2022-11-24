@@ -1,1 +1,4 @@
-console.log('hi there bro');
+import { User } from './User'
+import { Company } from './Company'
+
+console.log((new User()).name)
